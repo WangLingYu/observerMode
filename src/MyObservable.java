@@ -10,6 +10,7 @@ public class MyObservable extends Observable {
 
         setChanged();
         notifyObservers(content);
+        System.out.println("被观察者开始发送消息啦!");
     }
 
 }
